@@ -1,0 +1,106 @@
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&family=Pacifico&display=swap');
+
+ @media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+ body {
+  font-family: 'Comfortaa', cursive;
+  background-image: url(/images/coucher-soleil-tropical-style-retro-futur.webp);
+  background-size: 1540px 800px;
+ }
+
+ h1, h2 {
+  margin: 0;
+ }
+
+ #img-round {
+  border-radius: 50px;
+ }
+
+.btn {
+  background-color: #3330E4;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 30px 0px;
+  padding: 10px 30px;
+}
+
+.btn:hover {
+  background-color: #FF3A20;
+}
+
+.container {
+ max-width: 700px;
+ margin: 0 auto;
+ padding-top: 100px;
+}
+
+ .profile {
+  background-color: rgba(246, 55, 236, 0.7);
+  text-align: center;
+  box-shadow: 5px 5px rgba(251, 180, 84, 0.6) ;
+  padding: 30px 10px;
+  border-radius: 10px;
+  margin: 10px;
+ }
+
+ .links {
+  background-color: rgba(246, 55, 236, 0.7);
+  text-align: center;
+  box-shadow: 5px 5px rgba(251, 180, 84, 0.6);
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 300px;
+ }
+
+ h1 {
+  font-family: 'Pacifico', cursive;
+  color: #f5c70f;
+ }
+
+ h2 {
+  font-family: 'Lobster', cursive;
+  color: #3EC70B;
+ }
+
+ a {
+  text-decoration: none;
+  color: #ffffff;
+ }
+
+ i {
+  color: #3330E4;
+  font-size: 24px;
+  letter-spacing: 10px;
+ }
+
+ i:hover {
+  color: #7AE7C7;
+ }
+
+ li {
+  list-style: none;
+  display: inline-block;
+ }
+
+ ul {
+  padding-left: 0px;
+ }
